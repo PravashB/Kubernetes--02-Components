@@ -1,16 +1,15 @@
 # Kubernetes--02-Components
 
-## Kubernetes Components
-
 **An overview of the key components that make up a Kubernetes cluster.**
 
 Here I'm going to explain a high-level overview of the essential components that make up a Kubernetes cluster.
-Let’s break down the core components of Kubernetes in a simple way — imagine you are managing a restaurant kitchen
+
+> Imagine, We are managing Hardcastle Restaurants Pvt. Ltd. (HRPL) who owns & operates McDonald's restaurants across West and South India. 
 
 ![alt text](image.png)
 
 # Kubernetes as McDonald's: The Fast-Food Restaurant.
-**Imagine Kubernetes as the system that runs hundreds of McDonald’s outlets (like your apps) smoothly, automatically, and consistently.**
+**Imagine Kubernetes as the system that runs hundreds of McDonald’s outlets smoothly, automatically, and consistently.**
 
 Let’s break it down:
 
@@ -46,7 +45,7 @@ Imagine someone behind the scenes watching which station (grill, fryer, drinks) 
 - Like an Area supervisor, this guy visits all the stores and ensures that every McD outlet follows the standards.
 - If a Kitchen runs out of cheese or Lettuce - He makes sure more are sent.
 - He's constantly checking to ensure **reality matches the plan**.
-> In Kubernetes, The Controller Manager The Controller Manager ensures the cluster self-heals — if a Pod crashes, it brings it back. It constantly checks if the actual state matches the desired state, and takes action when they drift.
+> In Kubernetes, The Controller Manager ensures the cluster self-heals — if a Pod crashes, it brings it back. It constantly checks if the actual state matches the desired state, and takes action when they drift.
 
 ## Worker Node = Individual McDonald’s Branch
 Each Restaurant (Node) has it's own mini Teams and Machines. This is where the Actual cooking (running our Apps) happens.
@@ -82,4 +81,4 @@ The staff (Kubelet) tells these machines what to make, but the machines are the 
 - All these items belong together and are **delivered as a single unit.**
 > In K8s, A **Pod** is the smallest deployable unit. It wraps one ore more containers (our apps) which **share the same IP, storage and lifecycle** - just like items on the same tray are part of one meal.
 
-![alt text](image-2.png)
+![alt text](image-3.png)
