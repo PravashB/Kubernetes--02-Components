@@ -82,3 +82,6 @@ The staff (Kubelet) tells these machines what to make, but the machines are the 
 > In K8s, A **Pod** is the smallest deployable unit. It wraps one ore more containers (our apps) which **share the same IP, storage and lifecycle** - just like items on the same tray are part of one meal.
 
 ![alt text](image-3.png)
+
+> Prepared By: Pravash Behera
+> Last Updated: May, 2025
