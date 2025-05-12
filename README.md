@@ -27,7 +27,7 @@ These are the people and systems that run all the stores and ensures that everyt
 ### 2. etcd = McDonald's recipe and Operations Manual
 - It stores everything like Menu, Cooking Steps, Stock Levels, Store Statuses.
 - It's the **source of truth** for how every item should be made.
-> In Kubernetes, `etcd` stores Cluster State, Config, Nodes and Secrets.
+> In Kubernetes, `etcd` stores Cluster State, Config, Nodes and Secrets. Consistent and highly-available key value store for all API server data.
 
 ### 3. Scheduler = Kitchen Manager
 - Looks at all the kitchen stations and decides where to prepare our burger.
